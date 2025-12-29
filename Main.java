@@ -1,52 +1,41 @@
+public class Main {
+    public static void main(String[] args) {
 
-
-public class Main{
-    public static void main(String [] args) {
         System.out.println("");
-        System.out.println("Saudação aos vizualizadores");
+        System.out.println("Greetings to the viewers");
         System.out.println("");
-        System.out.println("Conhecendo os tipos de variáveis em java");
-        System.out.println("int, string, double, boolean");
+        System.out.println("Learning about variable types in Java");
+        System.out.println("int, String, double, boolean");
 
-        // "int" recebe o valor de exemplo: = 2"
+        // "int" receives an example value, e.g.: = 2
 
-        int comprimento = 50;
-        int largura = 20;
-        int altura = 20;
-        int perimetro = (altura + comprimento + largura);
+        int length = 50;
+        int width = 20;
+        int height = 20;
+        int perimeter = (height + length + width);
 
-            System.out.println("int = "+ perimetro + "cm");
+        System.out.println("int = " + perimeter + " cm");
 
-        // escrever aqui sobre a variável string
+        // Writing here about the String variable
 
-        String nome = "anderson";
-        String sobrenome_1 = "Pereira";
-        String sobrenome_2 = "Da Silva";
+        String firstName = "anderson";
+        String lastName1 = "Pereira";
+        String lastName2 = "Da Silva";
 
-            System.out.println("String = "+ " " + nome + " " + sobrenome_1 + " " + sobrenome_2);
+        System.out.println("String = " + " " + firstName + " " + lastName1 + " " + lastName2);
 
-        // escrever aqui sobre a variável double
+        // Writing here about the double variable
 
-         double numReal = 7;
-         double numDivisor = 2;
-            System.out.println("Número Real = " + numReal / numDivisor);
+        double realNumber = 7;
+        double divisor = 2;
+        System.out.println("Real Number = " + realNumber / divisor);
 
+        // Writing here about the boolean variable
 
-        // escrever aqui sobre a variável boolean
+        boolean workOnWeekdays = true;
+        boolean workOnWeekends = false;
 
-        boolean trabalharDds = true;
-        boolean trabalharFds = false;
-
-        System.out.println("Eu trabalho Dia de semana = " + trabalharDds);
-        System.out.println("Eu trabalho no final de semana = " + trabalharFds);
-
-
-
+        System.out.println("I work on weekdays = " + workOnWeekdays);
+        System.out.println("I work on weekends = " + workOnWeekends);
     }
-
-
-
-
-
-    }
-
+}
